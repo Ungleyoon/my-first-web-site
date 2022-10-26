@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZVQR6VXVR"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-        
-            gtag('config', 'G-PZVQR6VXVR');
-            </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB1 - html</title>
+    <title>복습하기 - HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 </head>
 <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
+    <h1><a href="index.html">규야의 복습</a></h1>
+    <input type="button" value="night" onclick="nightDayHandler(this)">
 
-    <h2>HTML이란??</h2>
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html specification">개발자가 되고 싶어요.</a> 백엔드로 할지, 프론트로 할지 아직 결정을 못해서 자바와 html, css, js도 같이 병행해서 살 예정입니다. 자바는 자바의 정석 2회독이 목표이고 FE는 생활코딩 전체 완강 후 클론해보려고 합니다. 초창기이기 때문에 백과 프론트 아예 구분짓는 것 보다 서로의 작동 방식을 어느 정도 이해하고, 둘 중 나의 적성을 찾기 위해 같이 병행할 것입니다. <STRONG>이제 정말 열심히해야 합니다.</STRONG> <u>내년 하반기 취업 목표를 위해.. 파이팅!!</u></p>
-    <img src="coding.jpeg" alt="대충 개발자가 되고 싶다는 짤" >
-    <p style="margin-top : 10px">개발자가 되고 싶어요. 백엔드로 할지, 프론트로 할지 아직 결정을 못해서 자바와 html, css, js도 같이 병행해서 살 예정입니다. 자바는 자바의 정석 2회독이 목표이고 FE는 생활코딩 전체 완강 후 클론해보려고 합니다. 초창기이기 때문에 백과 프론트 아예 구분짓는 것 보다 서로의 작동 방식을 어느 정도 이해하고, 둘 중 나의 적성을 찾기 위해 같이 병행할 것입니다. <STRONG>이제 정말 열심히해야 합니다.</STRONG> <u>내년 하반기 취업 목표를 위해.. 파이팅!!</u></p>
-
+    <div id="grid">
+        <ol>
+            <li id="active"><a href="1.html" >HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+    
+        <div id="article">
+            <h2>HTML!!</h2>
+            <p>이곳은 규야의 복습공간입니다. 오늘 하루 공부했던 내용들을 직접 사용해보며 어려움을 스스로 해결해나가기 위해 다시 만들어 보고 있습니다. 감사합니다.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wcrgIwzerks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 </body>
-</html> 
+</html>
